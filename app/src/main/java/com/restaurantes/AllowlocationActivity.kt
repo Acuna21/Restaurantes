@@ -66,19 +66,15 @@ class AllowlocationActivity : AppCompatActivity(), OnMapReadyCallback {
 
         createMarker()
         enableLocation()
-
-
         /*
         updateLocationUI()
         getDeviceLocation()
-        */
+
+         */
     }
-
-
-
-
-    //ACCESO A LA UBICACION CON LA DOCUMENTACION DE GOOGLE
     /*
+    //ACCESO A LA UBICACION CON LA DOCUMENTACION DE GOOGLE
+
     private fun getLocationPermission() {
         /*
          * Request location permission, so that we can get the location of the
@@ -164,8 +160,6 @@ class AllowlocationActivity : AppCompatActivity(), OnMapReadyCallback {
     //FIN DE ACCESO A LA UBICACION
 
 
-
-
     //ACCESO A LA UBICACION CON EL VIDEO DE YOU TUBE https://www.youtube.com/watch?v=L6B8LUGp2VA&t=676s&ab_channel=Programaci%C3%B3nAndroidbyAristiDevs
 
     private fun createMarker() {
@@ -222,6 +216,17 @@ class AllowlocationActivity : AppCompatActivity(), OnMapReadyCallback {
        }
     }
 
+    @SuppressLint("MissingPermission")
+    override fun onResumeFragments() {
+        super.onResumeFragments()
+        if (!::map.isInitialized) return
+        if(!isLocationPermissionGranted()){
+            map.isMyLocationEnabled = false
+            Toast.makeText(this, "Para activar la localizacion ve a a ajustes y acepta los permisos", Toast.LENGTH_SHORT).show()
+        }
+    }
+
     // FINAL DE ACCESO A LA UBICACION
+
 
 }
