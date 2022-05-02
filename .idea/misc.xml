@@ -16,7 +16,7 @@
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/activity_nav_bar.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/allowlocation.xml" value="0.264" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/confirm_email.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/content.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/content.xml" value="0.25" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/fragment_config.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/fragment_home.xml" value="0.2726449275362319" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/fragment_news.xml" value="0.36666666666666664" />
@@ -26,6 +26,7 @@
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/item_page.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/item_page1.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/item_restaurant.xml" value="0.33" />
+        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/login.xml" value="0.33" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/new_password.xml" value="0.25" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/register.xml" value="0.25416666666666665" />

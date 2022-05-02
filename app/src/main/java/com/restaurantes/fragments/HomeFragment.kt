@@ -26,7 +26,6 @@ class HomeFragment : Fragment() {
         Restaurant("KFC", "Carrera 09C # 03", "3118150170","google.com","Mexicano", "4", "..../res/mipmap/location.png" )
     )
 
-    // TODO: Rename and change types of parameters
     private lateinit var adapter : RestaurantAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,11 +52,6 @@ class HomeFragment : Fragment() {
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             HomeFragment().apply {
