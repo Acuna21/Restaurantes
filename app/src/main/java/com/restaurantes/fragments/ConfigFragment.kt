@@ -1,10 +1,14 @@
 package com.restaurantes.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import com.restaurantes.AllowlocationActivity
+import com.restaurantes.LoginActivity
 import com.restaurantes.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -35,7 +39,13 @@ class ConfigFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_config, container, false)
+        val view: View = inflater.inflate(R.layout.fragment_config, container, false)
+        val logOut = view.findViewById<Button>(R.id.btnLogOut)
+        logOut.setOnClickListener{
+            val intento1 = Intent(activity, LoginActivity::class.java)
+            startActivity(intento1)
+        }
+        return view
     }
 
     companion object {
