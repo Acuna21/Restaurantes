@@ -4,56 +4,68 @@
     android:layout_width="match_parent"
     android:layout_height="150dp"
     android:orientation="horizontal"
+    android:background="@drawable/customborder"
+    android:paddingTop="2.5dp"
+    android:paddingBottom="2.5dp"
     >
-    
+
     <ImageView
         android:id="@+id/ivRestaurant"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:paddingStart="3dp"
         />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingStart="5dp"
+        >
 
         <TextView
             android:id="@+id/tvName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Peter Parker"
-            />
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:text="Kentucky Fried Chicken (KFC)" />
+
         <TextView
             android:id="@+id/tvAddress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Peter Parker"
-            />
+            android:textColor="@color/black"
+            tools:text="Calle 30 # 32 -15 Centro Comercial Plaza del Sol" />
+
         <TextView
             android:id="@+id/tvPhone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Peter Parker"
-            />
+            android:textColor="@color/black"
+            tools:text="305 3042566" />
+
         <TextView
             android:id="@+id/tvWebSite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Peter Parker"
-            />
+            android:textColor="@color/black"
+            tools:text="https://www.kfc.co/" />
+
         <TextView
             android:id="@+id/tvCategory"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Peter Parker"
-            />
+            android:textColor="@color/black"
+            tools:text="Comida rapida" />
+
         <TextView
             android:id="@+id/tvSocre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Peter Parker"
-            />
+            android:textColor="@color/black"
+            tools:text="5" />
 
     </LinearLayout>
 

@@ -6,11 +6,13 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.restaurantes.R
 import com.restaurantes.dataClasses.Notification
+import com.restaurantes.fragments.NotificationsFragment
 
-class NotificationAdapter (val notificatios: List<Notification>):RecyclerView.Adapter<NotificationAdapter.NotificationHolder>(){
-
+class NotificationAdapter (val notificatios: List<Notification>, context: NotificationsFragment):RecyclerView.Adapter<NotificationAdapter.NotificationHolder>(){
+    val context = context
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NotificationHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
@@ -22,6 +24,7 @@ class NotificationAdapter (val notificatios: List<Notification>):RecyclerView.Ad
         holder.itemDescription.text = notificatios[position].description
         holder.itemTime.text = notificatios[position].time
         holder.itemImg.setImageResource(R.mipmap.ic_launcher_round)
+        Glide.with(context).load(notificatios[position].img).into(holder.itemImg)
     }
 
     override fun getItemCount(): Int = notificatios.size

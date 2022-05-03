@@ -6,11 +6,13 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.restaurantes.R
 import com.restaurantes.dataClasses.Favorite
+import com.restaurantes.fragments.ProfileFragment
 
-class FavoriteAdapter (val favorites: List<Favorite>):RecyclerView.Adapter<FavoriteAdapter.FavoriteHolder>(){
-
+class FavoriteAdapter (val favorites: List<Favorite>, context: ProfileFragment):RecyclerView.Adapter<FavoriteAdapter.FavoriteHolder>(){
+    val context = context
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FavoriteHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         return FavoriteHolder(layoutInflater.inflate(R.layout.item_favorites, parent, false))
@@ -19,7 +21,7 @@ class FavoriteAdapter (val favorites: List<Favorite>):RecyclerView.Adapter<Favor
     override fun onBindViewHolder(holder: FavoriteHolder, position: Int) {
         holder.itemName.text = favorites[position].name
         holder.itemAddress.text = favorites[position].address
-        holder.itemImg.setImageResource(R.mipmap.ic_launcher)
+        Glide.with(context).load(favorites[position].imgFavorite).into(holder.itemImg)
     }
 
     override fun getItemCount(): Int = favorites.size

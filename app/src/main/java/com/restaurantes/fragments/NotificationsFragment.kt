@@ -15,9 +15,9 @@ import com.restaurantes.dataClasses.Notification
  class NotificationsFragment : Fragment() {
 
     val notifications = listOf<Notification>(
-        Notification("Incandecencia","Todo se fué abajo","5h","src/img"),
-        Notification("Incandecencia","Todo se fué abajo","5h","src/img"),
-        Notification("Incandecencia","Todo se fué abajo","5h","src/img")
+        Notification("Incandecencia","Todo se fué abajo","5h","https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png"),
+        Notification("Incandecencia","Todo se fué abajo","5h","https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png"),
+        Notification("Incandecencia","Todo se fué abajo","5h","https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png")
     )
 
      private lateinit var adapter : NotificationAdapter
@@ -42,7 +42,7 @@ import com.restaurantes.dataClasses.Notification
      private fun initRecyclerView(view: View){
          val rvNotification = view.findViewById<RecyclerView>(R.id.rvNotification)
          rvNotification.layoutManager = LinearLayoutManager(activity)
-         rvNotification.adapter = NotificationAdapter(notifications)
+         rvNotification.adapter = NotificationAdapter(notifications, this)
      }
 
     companion object {
