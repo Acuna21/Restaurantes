@@ -4,12 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.124" />
+        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/drawable/customborder.xml" value="0.3675" />
+        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/drawable/ic_arrow_right.xml" value="0.3675" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2685" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/drawable/ic_home.xml" value="0.35" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2685" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
+        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/drawable/ic_login.xml" value="0.1965" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2685" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/drawable/roundstyle.xml" value="0.2595" />
+        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout-v28/fragment_config.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/activity_confirm_email.xml" value="0.10555555555555556" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/activity_main2.xml" value="0.35260416666666666" />
@@ -17,12 +21,15 @@
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/allowlocation.xml" value="0.264" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/confirm_email.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/content.xml" value="0.25" />
-        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/fragment_config.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/fragment_config.xml" value="0.25" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/fragment_home.xml" value="0.2726449275362319" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/fragment_news.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/fragment_notifications.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/intro_one.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/item1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/item_favorites.xml" value="0.1" />
+        <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/item_notification.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/item_page.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/item_page1.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/acuna/AndroidStudioProjects/Restaurantes/app/src/main/res/layout/item_restaurant.xml" value="0.33" />
